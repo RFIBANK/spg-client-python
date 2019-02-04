@@ -1,0 +1,65 @@
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# SublimeText
+## cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+## workspace files are user-specific
+*.sublime-workspace
+
+## project files should be checked into the repository, unless a significant
+## proportion of contributors will probably not be using SublimeText
+# *.sublime-project
+
+# Basics
+*.py[cod]
+__pycache__
+
+# Logs
+*.log
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+htmlcov
+.cache
+.mypy_cache
+
+# Translations
+*.mo
+*.pot
+
+# Pycharm
+.idea
+
+# Vim
+*~
+*.swp
+*.swo
+
+# Distribution / packaging
+.Python
+
+.installed.cfg
+*.egg
+
+
+#local user configs
+*.sqlite3
+*.env
+*.zip
+*.env_virtualenv
+
+# Ansible
+*.retry
+
+# VS
+.vscode
+/.pytest_cache/
